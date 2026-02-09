@@ -1,0 +1,6 @@
+#!name=隐私增强
+#!desc=隐私跟踪保护
+
+[Rule]
+DOMAIN-KEYWORD,track,reject
+DOMAIN-KEYWORD,analytics,reject
