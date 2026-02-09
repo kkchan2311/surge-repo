@@ -1,0 +1,5 @@
+#!name=去广告模块
+#!desc=基础拦截广告域名
+
+[Rule]
+RULE-SET,https://hk.kkchan.uk/rules/adblock.txt,reject
