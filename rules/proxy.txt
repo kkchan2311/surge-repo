@@ -83,6 +83,18 @@ DOMAIN-SUFFIX,rockstargames.com
 # Telegram（在 MY 有时被限速）
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,t.me
+# swiftgram
+
+IP-ASN,44907
+IP-ASN,62014
+IP-ASN,59930
+IP-ASN,62041
+IP-ASN,211157
+IP-CIDR,5.28.192.0/18
+IP-CIDR,109.239.140.0/24
+DOMAIN-KEYWORD,swiftgram
+DOMAIN-SUFFIX,swiftgram.net
+DOMAIN,api.swiftgram.app
 
 # 香港/台湾/日本区域内容（按需求走 Proxy）
 DOMAIN-SUFFIX,ptt.cc
