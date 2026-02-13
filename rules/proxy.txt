@@ -5,25 +5,28 @@
 # ---------------------------------------------
 
 # 社交媒体 Proxy（在马来西亚常被限速或不稳定）
+
+# 社交媒体马来西亚直连（精简版）
 IP-CIDR,157.240.236.0/24
 IP-CIDR,163.70.137.0/24
 IP-CIDR,157.240.211.0/24
 IP-CIDR,157.240.245.0/24
 IP-CIDR6,2a03:2880::/32
+
+# 域名规则（兜底所有 CDN）
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,m.facebook.com
 DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.net,no-resolve
 DOMAIN-SUFFIX,fbaddins.com
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,cdninstagram.com,no-resolve
 DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,snapchat.com
 
 # TikTok（MY 无需代理，但很多人需要美区/无水印解析）
