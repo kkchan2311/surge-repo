@@ -129,3 +129,5 @@ USER-AGENT,XLNetAccelerator*,DIRECT
 # School
 DOMAIN-SUFFIX,stu.jjc.edu,DIRECT
 DOMAIN-SUFFIX,jjc.edu,DIRECT
+
+# END
