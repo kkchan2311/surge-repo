@@ -1,0 +1,25 @@
+# ===============================
+# Download / P2P / High Traffic
+# Surge 5
+# ===============================
+
+# aria2 downloader
+HOST-KEYWORD,aria2,Download
+
+# BT / Magnet / ED2K / Tracker / P2P keywords
+URL-REGEX,(?i)(torrent|tracker|announce(\.php)?|magnet:|info_hash|peer_id|get_peers|find_node|ed2k|bt_key|bittorrent|xunlei|thunder|sandai|xlliveud),Download
+
+# Xunlei family (fallback)
+URL-REGEX,(?i)(xunlei|thunder|sandai|xlliveud),Download
+
+# 360 / Qihoo / Yunpan services
+URL-REGEX,(?i)(^|\.)((360|so|qihoo|qhimg|360safe|360totalsecurity|yunpan))\.(cn|com),Download
+
+# SMTP / Mail related traffic
+URL-REGEX,(?i)(smtp|subject|helo),Download
+
+# Baidu Map / Offline resources
+URL-REGEX,(?i)(api|ps|sv|offnavi|newvector|ulog\.imap|newloc)(\.map)?\.(baidu|n\.shifen)\.com,Download
+
+# Xbox Live game assets
+URL-REGEX,(?i)assets\d+\.xboxlive\.(com|cn),Download
