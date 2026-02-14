@@ -12,7 +12,8 @@
 .douyin.com
 .douyinpic.com
 .ttlivecdn.com
-
+.douyinvod.com
+.toutiaoapi.com
 # Additional TikTok commonly used domain names (optional, add as needed)
 .byteimg.com
 .douyincdn.com
